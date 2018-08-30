@@ -1,0 +1,149 @@
+
+
+input[type="submit"]
+{
+	margin-top: -10px;
+	 width: 100%;
+}
+/*start over write bootstrap*/
+
+body{
+	font-size: 16px;
+   background: #ccc; 
+}
+
+.navbar {
+	border-radius: 0;
+}
+
+.navbar-brand , .nav>li>a ,.dropdown-menu
+{
+	font-size: 1em;
+}
+.navbar-nav>li>.dropdown-menu
+{
+	background: #3498db;
+	min-width: 180px;
+	border-radius: 0;
+	border: none;
+	color: #fff;
+}
+
+
+.dropdown-menu>li>a
+{
+
+	color: #fff;
+	padding-left:1px; 
+}
+
+
+
+
+/*end bootstrap over bootstrap*/
+
+/*meber bage*/
+
+.main-table tr:first-child td
+{
+background: #333;
+color: #fff;
+
+}
+.main-table
+{
+	background: #fff;
+}
+
+
+.activate
+{
+	margin-left: 10px;
+}
+
+/*end member bage*/
+
+/*
+start dashbord*/
+
+
+.home-state .state
+
+{
+	
+	font-size: 15px;
+	margin-top: 20px;
+	padding-top: 10px;
+    color: #fff;
+}
+
+.home-state .state a
+{
+	color: #fff;
+}
+
+.home-state .state a:hover
+{
+text-decoration: none;
+}
+
+
+
+.st-members
+{
+	background:#3498db;
+}
+
+.st-pending{
+    background: #9b59b6;
+}
+
+.st-itemes
+{
+background: #2980b9;
+}
+.st-statistics
+{
+     background: #8e44ad;
+}
+
+.home-state span
+{
+	font-size: 60px;
+	padding-top: 10px; 
+	display: block;
+}
+
+
+
+.latest
+{
+	margin-top: 20px;
+}
+
+/*end dashbord*/
+
+
+/*start catogry*/
+
+.cat
+{
+	overflow: hidden;
+}
+.category .cat .global-sp
+
+{
+	
+padding: 4px 6px;
+color:#2c3e50; 
+
+font-weight: bold;
+}
+
+.dropdown-menu>li>a
+{
+	text-align: right;
+}
+
+
+/*End catogry*/
